@@ -1,0 +1,90 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.logo img {
+  max-width: 130px;
+  height: auto !important;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 18%;
+  font-family: "SF Alien Encounters";
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 15px;
+}
+
+main {
+  margin-bottom: 180px;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background: rgb(38, 46, 73);
+  background: linear-gradient(180deg, rgba(38, 46, 73, 1) 0%, rgba(220, 12, 131, 1) 35%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+.frontpage-title {
+  text-align: center;
+  font-family: "SF Alien Encounters";
+  font-size: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  list-style-type: none;
+}
+
+ul li a {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+ul li a:hover {
+  color: black;
+  transition: 0.5s;
+}
+
+h1,
+h2,
+p {
+  font-family: "Helvetica";
+  color: white;
+}
+p {
+  line-height: 30px;
+}

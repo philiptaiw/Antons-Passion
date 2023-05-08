@@ -1,3 +1,14 @@
-h1 {
-  color: blueviolet;
+@media (min-width: 750px) {
+  .grid1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1.16fr;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 2%;
+  }
+}
+.anton3 {
+  margin-top: 0.5%;
 }
