@@ -42,7 +42,7 @@ body {
 .frontpage-title {
   text-align: center;
   font-family: "SF Alien Encounters";
-  font-size: 200px;
+  font-size: 1000%;
   color: white;
   display: flex;
   justify-content: center;
@@ -84,6 +84,7 @@ h2,
 p {
   font-family: "Helvetica";
   color: white;
+  width: 100%;
 }
 p {
   line-height: 30px;
